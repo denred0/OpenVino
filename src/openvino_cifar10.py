@@ -227,8 +227,8 @@ def pytorch_test(device, test_loader, b_epoch):
 
     test_acc /= b_epoch
     taken = time() - start
-    print("Accuracy is: {:.2f}%".format(test_acc * 100 / len(test_loader)))
-    print("Time taken: {:.2f}s".format(taken))
+    # print("Accuracy is: {:.2f}%".format(test_acc * 100 / len(test_loader)))
+    # print("Time taken: {:.2f}s".format(taken))
 
     acc = test_acc * 100 / len(test_loader)
 
